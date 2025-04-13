@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+  .tasbeh {
+    background-image: url(./assets/bg.webp);
+    width: 100%;
+    background-repeat: no-repeat;
+    height: 90vh;
+    background-position: center;
+    background-size: 50rem;
+  }
+  
+  .screen {
+    width: 140px;
+    height: 50px;
+    margin-top: 14.6rem;
+    margin-left: 44rem;
+    background: #fff;
+    position: absolute;
+    border-radius: 5px;
+  }
+  .alham,
+  .subhan,
+  .akbar {
+    display: block;
+    position: absolute;
+    margin-top: 32rem;
+    margin-left: 43rem;
+    font-weight: bold;
+  }
+  
+  .alham::before {
+    content: 'ALHAMDULILLAH';
+    color: #000000;
+    font-size: 1.2rem;
+    display: block;
+  }
+  
+  .subhan::before {
+    content: 'SUBHANALLOH';
+    color: #000000;
+    font-size: 1.2rem;
+    display: block;
+  }
+  
+  .akbar::before {
+    content: 'ALLOHU AKBAR';
+    color: #000000;
+    font-size: 1.2rem;
+    display: block;
+  }
+  
+
+  .count {
+    position: absolute;
+    bottom: 5px;
+    right: 10px;
+    font-size: 22px;
+    font-weight: bold;
+    font-family: monospace;
+    color: #000;
+  }
+
+  .small-button {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    position: absolute;
+    top: 20.9rem;
+    right: 42.5rem;
+    box-shadow: 0 0 3px #333;
+  }
+  .small-button2{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    position: absolute;
+    top: 20.9rem ;
+    left: 43rem;
+    box-shadow: 0 0 3px #333;
+  }
+    .main-button {
+    width: 80px;
+    height: 80px;
+    background: radial-gradient(circle, #fff, #bbb);
+    border-radius: 50%;
+    position: absolute;
+    bottom: 30px;
+    top: 21.4rem;
+    left: 50.4%;
+    transform: translateX(-50%);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
+  }
+  button{
+    cursor: pointer;
+  }
+
+  @media only screen  and (max-width:768px) {
+    .main-button{
+        top: 19.3rem;
+        left: 51.6%;
+    }
+    .small-button2{
+        left: 15.5rem;
+        top: 19rem;
+    }
+    .small-button{
+        right: 14.5rem;
+        top: 19rem;
+    }
+    .screen{
+        top: -2rem;
+
+        left: -35.7rem;
+    }
+    .alham,
+  .subhan,
+  .akbar{
+    margin-left: 7.2  rem;
+    color: #000;
+  }
+    
+  }
